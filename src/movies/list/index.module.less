@@ -1,0 +1,23 @@
+@itemWidth:150px;
+@itemHeight:200px;
+.container{
+    width: 1000px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size:14px;
+    text-align:center;
+    row-gap: 30px;
+    img{
+        width: @itemWidth;
+        height: @itemHeight;
+    }
+}
+.title{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.rate{
+    font-size:12px;
+    color:#e4a64a;
+}

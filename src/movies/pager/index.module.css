@@ -1,0 +1,19 @@
+.pager {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+.pager span {
+  margin: 0 7px;
+  cursor: pointer;
+  color: black;
+}
+.pager span.disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.pager span.active {
+  color: lightblue;
+  cursor: auto;
+}
